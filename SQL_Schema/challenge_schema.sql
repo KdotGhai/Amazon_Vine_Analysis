@@ -27,3 +27,9 @@ CREATE TABLE vine_table (
   vine TEXT,
   verified_purchase TEXT
 );
+
+-- Query database to check successful upload
+SELECT * FROM review_id_table LIMIT 10;
+SELECT * FROM products_table LIMIT 10;
+SELECT * FROM customers_table LIMIT 10;
+SELECT * FROM vine_table LIMIT 10;
