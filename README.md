@@ -50,7 +50,7 @@ Software: Google Colab Notebook, PostgreSQL, pgAdmin 4, Amazon Web Service AWS
 
 <p align="center">
   <br>  <b> Overall Reviews</b>  </br>
-<img src="https://github.com/KdotGhai/Amazon_Vine_Analysis/blob/5fd587aa99f893adacdc935101c52a750a634e91/Images/Colab_Notebook_images/Vine_Review_Overall.png" width="700" height="250"/>
+<img src="https://github.com/KdotGhai/Amazon_Vine_Analysis/blob/5fd587aa99f893adacdc935101c52a750a634e91/Images/Colab_Notebook_images/Vine_Review_Overall.png" width="800" height="250"/>
 </p>
 
 
