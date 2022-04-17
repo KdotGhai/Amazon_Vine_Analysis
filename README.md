@@ -49,8 +49,8 @@ Software: Google Colab Notebook, PostgreSQL, pgAdmin 4, Amazon Web Service AWS
 &nbsp;&nbsp;&nbsp;&nbsp;Vote Ratings (helpful and total ratings) most helpful likely rule out many reviews that are either not worded very well or such that it reduced 1,785,997 to 65,379 useful reviews (just 3.7% of the total reviews are considered in this sample set). Since the Vine reviews accounted for just 31% of 5 stars and even less, 23% of all considered reviews. 
 
 <p align="center">
-  <br>  <b> 5-Star Reviews</b>  </br>
-<img src="https://github.com/KdotGhai/Amazon_Vine_Analysis/blob/5fd587aa99f893adacdc935101c52a750a634e91/Images/Colab_Notebook_images/Vine_Review_Overall.png" width="600" height="120"/>
+  <br>  <b> Overall Reviews</b>  </br>
+<img src="https://github.com/KdotGhai/Amazon_Vine_Analysis/blob/5fd587aa99f893adacdc935101c52a750a634e91/Images/Colab_Notebook_images/Vine_Review_Overall.png" width="700" height="250"/>
 </p>
 
 
