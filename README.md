@@ -4,7 +4,7 @@ Module 16
 ## Overview:
 &nbsp;&nbsp;&nbsp;&nbsp;In this module we will be utilizing "Big Data" and NLP(Natural Language Processing) to give numerical value to Amazon reviews to determine the usefulness and inidcate if there is any bias. In doing so, we will determine if there is discrepancy within the reviews, meaning are there favorably biased reviews embedded amongst genuine/brutally honest reviews. We will carry out our anaylsis via Google Colab and Pyspark following the ETL process to pull desired results then upload our data to pgAdmin by creating a database with AWS(Amazon Web Servers) to funnel the data in its finalized form. 
 ## Resources:
-Data Sources: [Amazon Data Review Sets](https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt)  
+Data Sources: [Amazon Data Review Sets](https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt)(Video Games V1.00)  
 Software: Google Colab Notebook, PostgreSQL, pgAdmin 4, Amazon Web Service AWS  
 - NOTE: The code will fail to run if used in standard jupyter notebook, must utilize Google Colab
 ## Deliverable 1: Amazon Data Uploaded and Dispalyed
