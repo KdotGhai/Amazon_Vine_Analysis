@@ -11,7 +11,7 @@ Software: Google Colab Notebook, PostgreSQL, pgAdmin 4, Amazon Web Service AWS
 ## Results:
 
 ### How many Vine reviews and non-Vine reviews were there?
-<p align="center" style="font-size:28px">
+<p align="center">
     <br>  <b> Total Non-Vine Reviews</b>  </br>
 <img src="https://github.com/KdotGhai/Amazon_Vine_Analysis/blob/2b112cc99b451f8fd57b790a085778fbcccc1f5d/Images/Colab_Notebook_images/total_Vine_reviews.png" width="600" height="120"/>
   <br>  <b> Total Non-Vine Reviews</b>  </br>
