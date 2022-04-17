@@ -13,9 +13,9 @@ Software: Google Colab Notebook, PostgreSQL, pgAdmin 4, Amazon Web Service AWS
 ### How many Vine reviews and non-Vine reviews were there?
 <p align="center">
     <br>  <b> Total Non-Vine Reviews</b>  </br>
-<img src="https://github.com/KdotGhai/Amazon_Vine_Analysis/blob/2b112cc99b451f8fd57b790a085778fbcccc1f5d/Images/Colab_Notebook_images/total_Vine_reviews.png" width="600" height="170"/>
+<img src="https://github.com/KdotGhai/Amazon_Vine_Analysis/blob/2b112cc99b451f8fd57b790a085778fbcccc1f5d/Images/Colab_Notebook_images/total_Vine_reviews.png" width="600" height="120"/>
   <br>  <b> Total Non-Vine Reviews</b>  </br>
-<img src="https://github.com/KdotGhai/Amazon_Vine_Analysis/blob/2b112cc99b451f8fd57b790a085778fbcccc1f5d/Images/Colab_Notebook_images/total_nonVine_reviews.png" width="600" height="170"/>
+<img src="https://github.com/KdotGhai/Amazon_Vine_Analysis/blob/2b112cc99b451f8fd57b790a085778fbcccc1f5d/Images/Colab_Notebook_images/total_nonVine_reviews.png" width="600" height="120"/>
 </p>
   There were a total of 94 Vine reviews vs. 40,471 Non-Vine Reviews that we processed with the criteria that the reviewer had their review voted on at least 20 times of which 50% or more of the readers voted the review s most helpful
 
