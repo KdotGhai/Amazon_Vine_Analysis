@@ -20,12 +20,14 @@ Software: Google Colab Notebook, PostgreSQL, pgAdmin 4, Amazon Web Service AWS
   There were a total of 94 Vine reviews vs. 40,471 Non-Vine Reviews that we processed with the criteria that the reviewer had their review voted on at least 20 times of which 50% or more of the readers voted the review s most helpful
 
 ### How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars?
-
-![Q2](Resources/Q2.PNG)
+<p align="center">
+  <br>  <b> Total Non-Vine Reviews</b>  </br>
+<img src="https://github.com/KdotGhai/Amazon_Vine_Analysis/blob/52efda0f928f767ab2ce817313766460f400096f/Images/Colab_Notebook_images/paid_vs_unpaid_5star_reviews.png" width="600" height="120"/>
+</p>
 
   5 star Vine reviews amounted to 48,  Non-Vine 5 star reviews: 15,663.
 
-- What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?
+### What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?
 
   This is a percentage of 5 star reviews Paid vs. Unpaid: 0.31%
 
