@@ -7,6 +7,17 @@ Module 16
 Data Sources: [Amazon Data Review Sets](https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt)  
 Software: Google Colab Notebook, PostgreSQL, pgAdmin 4, Amazon Web Service AWS  
 - NOTE: The code will fail to run if used in standard jupyter notebook, must utilize Google Colab
+## Deliverable 1: Amazon Data Uploaded and Dispalyed
+<p align="center">
+    <br>  <b> Customer Table</b>  </br>
+<img src="https://github.com/KdotGhai/Amazon_Vine_Analysis/blob/5fd587aa99f893adacdc935101c52a750a634e91/Images/pgAdmin_table_images/customers_table.png" width="600" height="120"/>
+  <br>  <b> Products Table</b>  </br>
+<img src="https://github.com/KdotGhai/Amazon_Vine_Analysis/blob/5fd587aa99f893adacdc935101c52a750a634e91/Images/pgAdmin_table_images/products_table.png" width="600" height="120"/>
+  <br>  <b> Reviews ID Table</b>  </br>
+<img src="https://github.com/KdotGhai/Amazon_Vine_Analysis/blob/5fd587aa99f893adacdc935101c52a750a634e91/Images/pgAdmin_table_images/review_id_table.png" width="600" height="120"/>
+  <br>  <b> Vine Table</b>  </br>
+<img src="https://github.com/KdotGhai/Amazon_Vine_Analysis/blob/5fd587aa99f893adacdc935101c52a750a634e91/Images/pgAdmin_table_images/vine_table.png" width="600" height="120"/>
+</p>
 
 ## Results:
 
@@ -21,7 +32,7 @@ Software: Google Colab Notebook, PostgreSQL, pgAdmin 4, Amazon Web Service AWS
 
 ### How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars?
 <p align="center">
-  <br>  <b> Total Non-Vine Reviews</b>  </br>
+  <br>  <b> 5-Star Reviews</b>  </br>
 <img src="https://github.com/KdotGhai/Amazon_Vine_Analysis/blob/52efda0f928f767ab2ce817313766460f400096f/Images/Colab_Notebook_images/paid_vs_unpaid_5star_reviews.png" width="600" height="120"/>
 </p>
 
@@ -31,17 +42,21 @@ Software: Google Colab Notebook, PostgreSQL, pgAdmin 4, Amazon Web Service AWS
 
   This is a percentage of 5 star reviews Paid vs. Unpaid: 0.31%
 
-Doing one more calculation,we learn that 48 out of 94 Vine reviews considered helpful, resulted in 51%, more than half of the reviews in the Video Games to be 5 star rating, while 15,663 out of 40,471 reviews resulted in about 39% of the reviews being rated 5 stars.
+&nbsp;&nbsp;&nbsp;&nbsp;From the data we notice 48 out of 94 Vine reviews considered helpful, resulted in 51%, more than half of the reviews in the Video Games to be 5 star rating, while 15,663 out of 40,471 non-Vine reviews resulted in about 39% of the reviews being rated 5 stars, clear indications of disparity which inidcates there are more factors in play behind the scenes when it comes to the reviews overall.
 
 ## Summary: 
 
-Vote Ratings (helpful and total ratings) most helpful likely rule out many reviews that are either not worded very well or such that it reduced 1,785,997 to 65,379 useful reviews (just 3.7% of the total reviews are considered in this sample set). Since the Vine reviews accounted for just 31% of 5 stars and even less, 23% of all considered reviews. 
+&nbsp;&nbsp;&nbsp;&nbsp;Vote Ratings (helpful and total ratings) most helpful likely rule out many reviews that are either not worded very well or such that it reduced 1,785,997 to 65,379 useful reviews (just 3.7% of the total reviews are considered in this sample set). Since the Vine reviews accounted for just 31% of 5 stars and even less, 23% of all considered reviews. 
 
-![Q3](Resources/Q3.PNG)
+<p align="center">
+  <br>  <b> 5-Star Reviews</b>  </br>
+<img src="https://github.com/KdotGhai/Amazon_Vine_Analysis/blob/5fd587aa99f893adacdc935101c52a750a634e91/Images/Colab_Notebook_images/Vine_Review_Overall.png" width="600" height="120"/>
+</p>
 
-We cannot say for certain based just the 5 star and helpful review status of whether or not the Vine program creates bias in reviews. the percentage of 5 star reviews for Vine customers was higher than those of regular reviewers, but since the Vine customers accounted for so little helpful reviews vs regular reviewers, we cannot say for certain based on your calculations as is, if there is truly a right leaning bias towards 5 star reviews with Vine .
 
-Such factors as whom the reviewer is... an influencer or celebrity may skew more customers to write positive reviews. We have not and probably should consider how Vine reviewers rate a product in other star ranges 1-4 to see if their review ratings skew to the right more than regular reviewers. Also one last thing to note, Are Vine Reviews done on products that may particular need a boost in reviews or as a form of a paid advertisement vs. a random product selected for review.
+&nbsp;&nbsp;&nbsp;&nbsp;We cant attain 100% accuracy from 5-star reviews and even isolating "helpful" reviews when it comes to Vine reviewers since we have proof of bias existing even at the smallest of scales where it would be considered negligible. The percentage of 5-star reviews for Vine customers was higher than those of regular reviewers however, the ratio of helpful [Vines reviews : regular reviewers] is a vast difference in favor of regular reviewers, we can only currently side with Vine reviews with what the data presents.
 
-We should also chart the review stats for Customer_id's that review too often, as they may have their own bias in reviews (only creating negative reviews)
+&nbsp;&nbsp;&nbsp;&nbsp;There are some impactful factors to takine into consideration that will always play a role, influencers or celebrities may skew more customers to write positive/negative reviews thus giving a unrealitic expectation of the product. A "red-flag" that exists is paid Vine reviewers, this is clear indication of bias for monetary gain in providing disingenuous expectations regardless its postive or negative. Furthermore, there is awlays the possibilty of either "Paid-Regular Reviewers" or bots the either sensationalize or slander/belittle products. Lastly, something that can't be tackled directly unless a reviewer goes out of their way to explain themselves is tone of the message, sarcasm, or euphemisms. We can never 100% capture the emotion and intent unless it written/stated as transparent as possible
+
+&nbsp;&nbsp;&nbsp;&nbsp; We may need to tackle the issue of bots and paid reviews in order to ensure the accuracy/authenticity of the reviews that best reflect a product, being informative should never come at the expense of the truth. Also, a possible implementation of allowing reviewers to add adjectives as checkboxes or tags to attach to their starred reviews in an attempt to grasp reviewers emotions/thoughts on the product such as: "moneys worth!", "pricey yet effective/usful", "too costly", "useless", "faulty product", "Short lifespan", etc.
 
