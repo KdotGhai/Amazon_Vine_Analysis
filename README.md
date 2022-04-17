@@ -10,13 +10,13 @@ Software: Google Colab Notebook, PostgreSQL, pgAdmin 4, Amazon Web Service AWS
 ## Deliverable 1: Amazon Data Uploaded and Dispalyed
 <p align="center">
     <br>  <b> Customer Table</b>  </br>
-<img src="https://github.com/KdotGhai/Amazon_Vine_Analysis/blob/5fd587aa99f893adacdc935101c52a750a634e91/Images/pgAdmin_table_images/customers_table.png" width="600" height="120"/>
+<img src="https://github.com/KdotGhai/Amazon_Vine_Analysis/blob/5fd587aa99f893adacdc935101c52a750a634e91/Images/pgAdmin_table_images/customers_table.png" width="700" height="200"/>
   <br>  <b> Products Table</b>  </br>
-<img src="https://github.com/KdotGhai/Amazon_Vine_Analysis/blob/5fd587aa99f893adacdc935101c52a750a634e91/Images/pgAdmin_table_images/products_table.png" width="600" height="120"/>
+<img src="https://github.com/KdotGhai/Amazon_Vine_Analysis/blob/5fd587aa99f893adacdc935101c52a750a634e91/Images/pgAdmin_table_images/products_table.png" width="700" height="200"/>
   <br>  <b> Reviews ID Table</b>  </br>
-<img src="https://github.com/KdotGhai/Amazon_Vine_Analysis/blob/5fd587aa99f893adacdc935101c52a750a634e91/Images/pgAdmin_table_images/review_id_table.png" width="600" height="120"/>
+<img src="https://github.com/KdotGhai/Amazon_Vine_Analysis/blob/5fd587aa99f893adacdc935101c52a750a634e91/Images/pgAdmin_table_images/review_id_table.png" width="700" height="200"/>
   <br>  <b> Vine Table</b>  </br>
-<img src="https://github.com/KdotGhai/Amazon_Vine_Analysis/blob/5fd587aa99f893adacdc935101c52a750a634e91/Images/pgAdmin_table_images/vine_table.png" width="600" height="120"/>
+<img src="https://github.com/KdotGhai/Amazon_Vine_Analysis/blob/5fd587aa99f893adacdc935101c52a750a634e91/Images/pgAdmin_table_images/vine_table.png" width="700" height="200"/>
 </p>
 
 ## Results:
