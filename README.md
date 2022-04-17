@@ -25,7 +25,7 @@ Software: Google Colab Notebook, PostgreSQL, pgAdmin 4, Amazon Web Service AWS
 <img src="https://github.com/KdotGhai/Amazon_Vine_Analysis/blob/52efda0f928f767ab2ce817313766460f400096f/Images/Colab_Notebook_images/paid_vs_unpaid_5star_reviews.png" width="600" height="120"/>
 </p>
 
-  5 star Vine reviews amounted to 48,  Non-Vine 5 star reviews: 15,663.
+  5 star Vine reviews amounted to 48,  Non-Vine 5 star reviews: 15,663. Although the percentage of paid reviewers doesnt even reach 1% this doesnt mean we can ignore the potential of bias existing in higher numbers for other datasets or other genres/categories of products.
 
 ### What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?
 
